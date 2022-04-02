@@ -1,8 +1,11 @@
-ENV["RAILS_ENV"] ||= "test"
-require_relative "../config/environment"
-require "rails/test_help"
-
+# rubocop:disable Style/FrozenStringLiteralComment
+ENV['RAILS_ENV'] ||= 'test'
+# rubocop:enable Style/FrozenStringLiteralComment
+require_relative '../config/environment'
+require 'rails/test_help'
+# rubocop:disable Style/ClassAndModuleChildren
 class ActiveSupport::TestCase
+  # rubocop:enable Style/ClassAndModuleChildren
   # Run tests in parallel with specified workers
   parallelize(workers: :number_of_processors)
 

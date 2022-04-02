@@ -1,13 +1,16 @@
-require_relative "boot"
-
-require "rails/all"
+# rubocop:disable Style/FrozenStringLiteralComment
+require_relative 'boot'
+# rubocop:enable Style/FrozenStringLiteralComment
+require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
 module Hellorails
+  # rubocop:disable Style/Documentation
   class Application < Rails::Application
+    # rubocop:enable Style/Documentation
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
 

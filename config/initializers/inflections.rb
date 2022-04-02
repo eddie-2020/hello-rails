@@ -1,4 +1,6 @@
+# rubocop:disable Style/FrozenStringLiteralComment
 # Be sure to restart your server when you modify this file.
+# rubocop:enable Style/FrozenStringLiteralComment
 
 # Add new inflection rules using the following format. Inflections
 # are locale specific, and you may define rules for as many different
