@@ -1,0 +1,5 @@
+# rubocop:disable Style/FrozenStringLiteralComment
+#!/usr/bin/env ruby
+# rubocop:enable Style/FrozenStringLiteralComment
+require_relative '../config/application'
+require 'importmap/commands'

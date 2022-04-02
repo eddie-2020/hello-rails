@@ -1,0 +1,6 @@
+# rubocop:disable Style/FrozenStringLiteralComment
+#!/usr/bin/env ruby
+# rubocop:enable Style/FrozenStringLiteralComment
+require_relative '../config/boot'
+require 'rake'
+Rake.application.run
